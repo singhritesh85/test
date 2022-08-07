@@ -4,4 +4,5 @@ pipeline{
     stage("Build"){
       sh 'echo HelloWorld!!!'
     }
+  }
 }
