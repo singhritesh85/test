@@ -2,7 +2,7 @@ pipeline{
   agent{
     node{
       label "Slave-1"
-      customeWorkspace "/home/jenkins/demo"
+      customWorkspace "/home/jenkins/demo"
     }
   }
   stages{
